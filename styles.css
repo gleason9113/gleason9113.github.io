@@ -1,0 +1,10 @@
+.grad {
+    background: #FFFFFF;
+    background: linear-gradient(270deg, #FFFFFF 0%, #787979 50%, #000000 100%);
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
