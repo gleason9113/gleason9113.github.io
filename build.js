@@ -1,4 +1,4 @@
-//Arrays used in displayProjects() function
+u//Arrays used in displayProjects() function
 let links = [
     "https://github.com/gleason9113/xv6",
     "https://github.com/gleason9113/python-misc",
@@ -73,7 +73,7 @@ function displayAbout() {
     parentDiv.style.marginTop = "300px";
     parentDiv.classList.add('row', 'vh100');
     let img = document.createElement('img');
-    img.src = "images/filler_pic.jpg";
+    img.src = "filler_pic.jpg";
     img.classList.add('offset-md-4', 'col-2');
     img.setAttribute('alt', "Filler image of the website author");
     img.style.borderRadius = "20px";
@@ -107,12 +107,12 @@ function displayProjects() {
         row.classList.add('row', 'my-5');
         //Create pic link
         let pic = document.createElement('a');
-        pic.href =  `images/${pics[i]}` //`${pics[i]}`;
+        pic.href =  `${pics[i]}` //`${pics[i]}`;
         pic.classList.add("col-1");
         
         //Create img
         let img = document.createElement('img');
-        img.setAttribute('src', `images/${pics[i]}`);
+        img.setAttribute('src', `${pics[i]}`);
         img.classList.add('img-fluid');
         pic.setAttribute('alt', `${alts[i]}`);
 
