@@ -107,7 +107,9 @@ function displayProjects() {
         row.classList.add('row', 'my-5');
         //Create pic link
         let pic = document.createElement('a');
+
         pic.href =  `${pics[i]}` //`${pics[i]}`;
+
         pic.classList.add("col-1");
         
         //Create img
