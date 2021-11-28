@@ -3,7 +3,8 @@ let links = [
     "https://github.com/gleason9113/xv6",
     "https://github.com/gleason9113/python-misc",
     "https://github.com/gleason9113/li_chat",
-    "https://github.com/gleason9113/webdev--hw"
+    "https://github.com/gleason9113/webdev--hw",
+    "https://github.com/gleason9113/first_site_rough",
 ]
 
 let pics = [
@@ -11,6 +12,7 @@ let pics = [
     "py_filler.jpg",
     "chat_filler.jpg",
     "frontend_filler.jpg",
+    "first_filler.jpg",
 ]
 
 let alts = [
@@ -18,6 +20,7 @@ let alts = [
     "Screenshot of python code",
     "Screenshot of Javascript code",
     "Screenshot of Bootstrap form",
+    "Screenshot of original webpage",
 ]
 
 let text = [
@@ -25,6 +28,7 @@ let text = [
     "Miscellaneous Python code snippets I've written.",
     "Minimal chat application written from tutorial.",
     "Introduction to Front-End Web Development- class assignment.",
+    "The HTML version of my webpage.",
 ]
 
 //Function that creates the home element
