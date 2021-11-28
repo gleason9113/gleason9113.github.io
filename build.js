@@ -1,4 +1,4 @@
-u//Arrays used in displayProjects() function
+//Arrays used in displayProjects() function
 let links = [
     "https://github.com/gleason9113/xv6",
     "https://github.com/gleason9113/python-misc",
@@ -21,10 +21,10 @@ let alts = [
 ]
 
 let text = [
-    "xv6 updated with an MLFQ scheduler.<br>",
-    "Miscellaneous Python code snippets I've written.<br>",
+    "xv6 updated with an MLFQ scheduler.",
+    "Miscellaneous Python code snippets I've written.",
     "Minimal chat application written from tutorial.",
-    "Introduction to Front-End Web Development- class assignment.<br>",
+    "Introduction to Front-End Web Development- class assignment.",
 ]
 
 //Function that creates the home element
