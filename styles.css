@@ -3,8 +3,30 @@
     background: linear-gradient(270deg, #FFFFFF 0%, #787979 50%, #000000 100%);
 }
 
+.grad-back {
+    background: #FFFFFF;
+    background: linear-gradient(270deg, #000000 0%, #787979 50%, #FFFFFF 100%);
+}
+
 iframe {
     display: block;
     margin: 0 auto;
     border: none;
+}
+
+.image {
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+}
+
+.btn {
+    border-color: transparent;
+    color: black;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+    color: black;
 }
