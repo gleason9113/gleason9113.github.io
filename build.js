@@ -112,7 +112,7 @@ function displayProjects() {
         //Create pic link
         let pic = document.createElement('a');
 
-        pic.href =  `${pics[i]}` //`${pics[i]}`;
+        pic.href =  `${links[i]}`;
 
         pic.classList.add("col-1");
         
